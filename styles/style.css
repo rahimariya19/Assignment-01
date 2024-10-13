@@ -49,9 +49,6 @@ body{
     font-weight: 400;
     opacity: 0.7;
     margin: 20px;
-
-
-
 }
 
 #contact-button{
@@ -65,18 +62,168 @@ body{
     margin-top: 20px;
 }
 
+/* web development */
+.web-container{
+    width: 1140px;
+    height: 1393px;
+    margin: 0 auto;
+    margin-top: 75px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.web-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 97px;
+    padding-right: 97px;
+    
+}
+
+.web-content h6{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.web-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+
+.web-first-section{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 34px;
+    
+}
+
+.web-first-section h6{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.web-first-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
+
+.btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-top: 25px;
+    padding: 7px;
+}
+
+
+.web-second-section{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 34px;
+    
+}
+
+
+.web-second-section h6{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+
+.web-second-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
+
+
+.web-third-section{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+
+
+.web-third-section h6{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+
+.web-third-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
+
+
+
 /* inspiration */
 .inspiration-container{
     width: 1140px;
     height: 775px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .inspiration-content{
     width: 1140px;
-
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,7 +270,7 @@ body{
     width: 1140px;
     height: 460px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .current-target-content{
